@@ -16,6 +16,7 @@
 
     <!-- Custom CSS -->
     <link href="css/agency.css" rel="stylesheet">
+    <link href="font-mfizz/font-mfizz.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -97,9 +98,9 @@
         <?php require('./views/portfolio.php'); ?>
     </section>
 
-    <!-- About Section -->
+    <!-- technologies Section -->
     <section id="technologies">
-       tech
+        <?php require('./views/technologies.php'); ?>
     </section>
 
     <!-- About Section -->
@@ -152,3 +153,4 @@
 </body>
 
 </html>
+
