@@ -8,30 +8,30 @@
 </div>
 <div class="container">
     <div class="row">
-        <div class="col-lg-3 col-md-6 text-center">
+        <div class="col-lg-3 col-md-3 text-center">
             <div class="service-box">
-                <i id="icon-java" class="icon-java">
-                <h3>Sturdy Templates</h3>
-                <p class="text-muted">Our templates are updated regularly so they don't break.</p>
+                <i class="icon-java languages-icon"></i>
+                <h3>JAVA</h3>
+
             </div>
         </div>
-        <div class="col-lg-3 col-md-6 text-center">
+        <div class="col-lg-3 col-md-3 text-center">
             <div class="service-box">
-                <i class="fa fa-4x fa-paper-plane wow bounceIn text-primary" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: bounceIn;"></i>
-                <h3>Ready to Ship</h3>
-                <p class="text-muted">You can use this theme as is, or you can make changes!</p>
+                <i class="icon-php languages-icon"></i>
+                <h3>PHP</h3>
+                
             </div>
         </div>
-        <div class="col-lg-3 col-md-6 text-center">
+        <div class="col-lg-3 col-md-3 text-center">
             <div class="service-box">
-                <i class="fa fa-4x fa-newspaper-o wow bounceIn text-primary" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s; animation-name: bounceIn;"></i>
+                <i class="icon-java languages-icon"></i>
                 <h3>Up to Date</h3>
                 <p class="text-muted">We update dependencies to keep things fresh.</p>
             </div>
         </div>
-        <div class="col-lg-3 col-md-6 text-center">
+        <div class="col-lg-3 col-md-3 text-center">
             <div class="service-box">
-                <i class="fa fa-4x fa-heart wow bounceIn text-primary" data-wow-delay=".3s" style="visibility: visible; animation-delay: 0.3s; animation-name: bounceIn;"></i>
+                <i class="icon-java languages-icon"></i>
                 <h3>Made with Love</h3>
                 <p class="text-muted">You have to make your websites with love these days!</p>
             </div>

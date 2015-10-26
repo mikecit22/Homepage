@@ -9,6 +9,10 @@ body {
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+.languages-icon{
+    font-size: 130px;
+}
+
 .image-filter{
     background-color: black;
     position: absolute;
