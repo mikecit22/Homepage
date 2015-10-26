@@ -46,7 +46,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top" style="">Michael Citro</a>
+                <a class="navbar-brand page-scroll" href="#page-top" style="color:white">Michael Citro</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -76,11 +76,11 @@
 
     <!-- Header -->
     <header>
-        
+        <div class="image-filter"></div>
         <div class="container">
             <div class="intro-text" style="z-index:9999">
                 <div class="intro-lead-in">
-                <span style="background-color:#212121;">Challenges are what make life interesting; overcoming them is what makes life meaningful.</span>
+                <span style="position: relative;">Challenges are what make life interesting; overcoming them is what makes life meaningful.</span>
                 </div>
                 <div class="intro-lead-in" style="text-align:right;font-size:25px !important;">Joshua J. Marine</div>
             </div>
