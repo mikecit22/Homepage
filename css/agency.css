@@ -9,6 +9,15 @@ body {
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+.image-filter{
+    background-color: black;
+    position: absolute;
+    opacity: .2;
+    /* font-size: 25px !important; */
+    width: 100%;
+    height: 100%;
+}
+
 .text-muted {
     color: #777;
 }
