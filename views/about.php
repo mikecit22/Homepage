@@ -2,7 +2,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">About</h2>
-                    <h3 class="section-subheading text-muted">As a Software Engineering I have held positions from a Systems Architect Analyst to a front and back-end developer in both corporate and startup environments. Aside from completing projects working with different teams across different corporations, I have worked with numerous complex systems both from an architectural standpoint and development standpoint. I invest personal time experimenting with new and emerging technologies to better myself in designing and implementing systems, not only to improve my skill but because what I do is my life’s passion.</h3>
+                    <h3 class="section-subheading text-muted" style="line-height: 30px;">As a Software Engineering I have held positions from a Systems Architect Analyst to a front and back-end developer in both corporate and startup environments. Aside from completing projects working with different teams across different corporations, I have worked with numerous complex systems both from an architectural standpoint and development standpoint. I invest personal time experimenting with new and emerging technologies to better myself in designing and implementing systems, not only to improve my skill but because what I do is my life’s passion.</h3>
                 </div>
             </div>
             <div class="row">

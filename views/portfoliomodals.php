@@ -16,9 +16,9 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <!-- Project Details Go Here -->
-                            <h2>Project Name</h2>
-                            <p class="item-intro text-muted"><a href="http://citrosystems.com/websites/omniplanner/">http://citrosystems.com/websites/omniplanner/</a></p>
-                            <img class="img-responsive img-centered" src="img/portfolio/roundicons-free.png" alt="">
+                            <h2>OmniPlanner</h2>
+                            <p class="item-intro text-muted"><a href="http://citrosystems.com/websites/omniplanner/">Try It!</a></p>
+                            <img class="img-responsive img-centered" src="img/portfolio/opd.jpg" alt="">
                             <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                             <p>
                                 <strong>Want these icons in this portfolio item sample?</strong>You can download 60 of them for free, courtesy of <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">RoundIcons.com</a>, or you can purchase the 1500 icon set <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">here</a>.</p>
@@ -75,11 +75,10 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <!-- Project Details Go Here -->
-                            <h2>Project Name</h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/treehouse-preview.png" alt="">
-                            <p>Treehouse is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. This is bright and spacious design perfect for people or startup companies looking to showcase their apps or other projects.</p>
-                            <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/treehouse-free-psd-web-template/">FreebiesXpress.com</a>.</p>
+                            <h2>Send</h2>
+                            <a href="https://play.google.com/store/apps/details?id=com.app.citro.SEND&hl=en">Download</a>
+                            <img class="img-responsive img-centered" src="img/portfolio/unnamed.webp" alt="">
+                            <p>Do you find yourself texting the same person the same message over and over such as: Goodmorning, Be there in a bit, Ill see you tonight, or my personal favorite, B There in 5. Well now you can select your favorite contacts and add some predefined text to send them with one click at any time. Simply click your contact and click the message to SEND them. This 2 click step replacing the old means of: Click on a contact, Click on the text felid, then type your message, then hitting send will save precious time, especially when on the go.</p>
                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                         </div>
                     </div>

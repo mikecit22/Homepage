@@ -20,7 +20,7 @@
                 <p class="text-muted">Cloud Planner</p>
             </div>
         </div>
-        <div class="col-md-4 col-sm-6 portfolio-item">
+<!--         <div class="col-md-4 col-sm-6 portfolio-item">
             <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
                 <div class="portfolio-hover">
                     <div class="portfolio-hover-content">
@@ -33,7 +33,7 @@
                 <h4>Startup Framework</h4>
                 <p class="text-muted">Website Design</p>
             </div>
-        </div>
+        </div> -->
         <div class="col-md-4 col-sm-6 portfolio-item">
             <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
                 <div class="portfolio-hover">
@@ -44,8 +44,8 @@
                 <img src="img/portfolio/send.jpg" class="img-responsive" alt="">
             </a>
             <div class="portfolio-caption">
-                <h4>Treehouse</h4>
-                <p class="text-muted">Website Design</p>
+                <h4>Send</h4>
+                <p class="text-muted">Android App</p>
             </div>
         </div>
     </div>
