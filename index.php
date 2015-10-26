@@ -76,7 +76,7 @@
 
     <!-- Header -->
     <header>
-        <div class="image-filter"></div>
+        <!-- <div class="image-filter"></div> -->
         <div class="container">
             <div class="intro-text" style="z-index:9999">
                 <div class="intro-lead-in">
