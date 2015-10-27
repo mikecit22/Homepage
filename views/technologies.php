@@ -66,6 +66,71 @@
 <div class="container" style="margin-top:100px;">
     <div class="row">
         <div class="col-lg-12 text-center">
+            <h2 class="section-heading">Platforms</h2>
+            <hr class="primary-divider">
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-3 col-md-3 col-xs-6 text-center">
+            <div class="service-box service-box-mod">
+                <i class="java-bold languages-icon" style="margin-left:40px;"></i>
+                <h3>Android</h3>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-xs-6 text-center">
+            <div class="service-box service-box-mod">
+                <i class="php languages-icon"></i>
+                <h3>iOS</h3>
+                
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-xs-6 text-center">
+            <div class="service-box service-box-mod">
+                <i class="mysql languages-icon"></i>
+                <h3>Windows</h3>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-xs-6 text-center">
+            <div class="service-box service-box-mod">
+                <i class="languages-icon"></i>
+                <h3>Mac</h3>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-3 col-md-3 col-xs-6 text-center">
+            <div class="service-box service-box-mod">
+                <i class=" languages-icon"></i>
+                <h3>web</h3>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-xs-6 text-center">
+            <div class="service-box service-box-mod">
+                <i class=" languages-icon"></i>
+                <h3>raspberry pi</h3>
+                
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-xs-6 text-center">
+            <div class="service-box service-box-mod">
+                <i class=" languages-icon"></i>
+                <h3>linux</h3>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-xs-6 text-center">
+            <div class="service-box service-box-mod">
+                <i class="languages-icon"></i>
+                <h3>apache</h3>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container" style="margin-top:100px;">
+    <div class="row">
+        <div class="col-lg-12 text-center">
             <h2 class="section-heading">Frameworks</h2>
             <hr class="primary-divider">
         </div>

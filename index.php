@@ -104,7 +104,7 @@
     </section>
 
     <!-- About Section -->
-    <section id="about">
+    <section id="about" class="bg-light-gray">
         <?php require('./views/about.php'); ?>
     </section>
 
