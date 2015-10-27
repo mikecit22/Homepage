@@ -95,12 +95,12 @@
     </section>
 
     <!-- technologies Section -->
-    <section id="technologies">
+    <section id="technologies" class="bg-light-gray">
         <?php require('./views/technologies.php'); ?>
     </section>
 
     <!-- Portfolio Grid Section -->
-    <section id="portfolio" class="bg-light-gray">
+    <section id="portfolio" >
         <?php require('./views/portfolio.php'); ?>
     </section>
 
