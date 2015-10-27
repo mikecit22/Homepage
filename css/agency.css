@@ -29,6 +29,11 @@ body {
     margin-bottom: 10px;
 }
 
+.service-box-mod:hover{
+    color: #fed136;
+    background-color: #333;
+}
+
 .image-filter{
     background-color: black;
     position: absolute;

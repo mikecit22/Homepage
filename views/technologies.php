@@ -10,7 +10,7 @@
     <div class="row">
         <div class="col-lg-3 col-md-3 col-xs-6 text-center">
             <div class="service-box service-box-mod">
-                <i class="icon-java-bold languages-icon"></i>
+                <i class="icon-java-bold languages-icon" style="margin-left:40px;"></i>
                 <h3>JAVA</h3>
             </div>
         </div>
