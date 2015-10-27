@@ -60,11 +60,12 @@
                         <a class="page-scroll" href="#services">Skills</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#portfolio">Portfolio</a>
-                    </li>
-                    <li>
                         <a class="page-scroll" href="#technologies">Technologies</a>
                     </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                    </li>
+
                     <li>
                         <a class="page-scroll" href="#about">About</a>
                     </li>
@@ -93,14 +94,14 @@
         <?php require('./views/services.php'); ?>
     </section>
 
-    <!-- Portfolio Grid Section -->
-    <section id="portfolio" class="bg-light-gray">
-        <?php require('./views/portfolio.php'); ?>
-    </section>
-
     <!-- technologies Section -->
     <section id="technologies">
         <?php require('./views/technologies.php'); ?>
+    </section>
+
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio" class="bg-light-gray">
+        <?php require('./views/portfolio.php'); ?>
     </section>
 
     <!-- About Section -->
@@ -130,7 +131,7 @@
     </footer>
 
 
-    <?php require('./views/portfoliomodals.php'); ?>
+    <?php //require('./views/portfoliomodals.php'); ?>
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>

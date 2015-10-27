@@ -905,3 +905,8 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #fed136;
 }
+
+.portfolio-item a{
+    min-height: 212px;
+    min-width: 294px;
+}
