@@ -2,7 +2,7 @@
     <div class="row">
         <div class="col-lg-12 text-center">
             <h2 class="section-heading">Languages</h2>
-            <hr class="primary">
+            <hr class="primary-divider">
         </div>
     </div>
 </div>
@@ -29,7 +29,7 @@
         </div>
         <div class="col-lg-3 col-md-3 col-xs-6 text-center">
             <div class="service-box service-box-mod">
-                <i class="icon-c languages-icon"></i>
+                <i class="languages-icon"></i>
                 <h3>ColdFusion</h3>
             </div>
         </div>
@@ -56,8 +56,46 @@
         </div>
         <div class="col-lg-3 col-md-3 col-xs-6 text-center">
             <div class="service-box service-box-mod">
-                <i class="icon-c languages-icon"></i>
+                <i class="languages-icon"></i>
                 <h3>XML</h3>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container" style="margin-top:100px;">
+    <div class="row">
+        <div class="col-lg-12 text-center">
+            <h2 class="section-heading">Frameworks</h2>
+            <hr class="primary-divider">
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-3 col-md-3 col-xs-6 text-center">
+            <div class="service-box service-box-mod">
+                <i class="icon-laravel languages-icon"></i>
+                <h3>Laravel</h3>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-xs-6 text-center">
+            <div class="service-box service-box-mod">
+                <i class="php languages-icon"></i>
+                <h3>Ionic</h3>
+                
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-xs-6 text-center">
+            <div class="service-box service-box-mod">
+                <i class="mysql languages-icon"></i>
+                <h3>Bootstrap</h3>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-xs-6 text-center">
+            <div class="service-box service-box-mod">
+                <i class="c languages-icon"></i>
+                <h3>Much More</h3>
             </div>
         </div>
     </div>

@@ -17,6 +17,12 @@ body {
     margin-top: 45px;
 }
 
+.primary-divider{
+    border-color: #fed136;
+    width: 100px;
+    border-width: 5px;
+}
+
 .fa-html5{
     margin-top: 45px;
 }
