@@ -75,26 +75,26 @@
     <div class="row">
         <div class="col-lg-3 col-md-3 col-xs-6 text-center">
             <div class="service-box service-box-mod">
-                <i class="fa fa-android languages-icon" style="margin-left:40px;"></i>
+                <i class="fa fa-android languages-icon" style="margin-top: 40px;"></i>
                 <h3>Android</h3>
             </div>
         </div>
         <div class="col-lg-3 col-md-3 col-xs-6 text-center">
             <div class="service-box service-box-mod">
-                <i class="fa fa-apple languages-icon"></i>
+                <i class="fa fa-apple languages-icon" style="margin-top: 40px;"></i>
                 <h3>iOS</h3>
                 
             </div>
         </div>
         <div class="col-lg-3 col-md-3 col-xs-6 text-center">
             <div class="service-box service-box-mod">
-                <i class="fa fa-windows languages-icon"></i>
+                <i class="fa fa-windows languages-icon" style="margin-top: 40px;"></i>
                 <h3>Windows</h3>
             </div>
         </div>
         <div class="col-lg-3 col-md-3 col-xs-6 text-center">
             <div class="service-box service-box-mod">
-                <i class="fa fa-apple languages-icon"></i>
+                <i class="fa fa-apple languages-icon" style="margin-top: 40px;"></i>
                 <h3>Mac</h3>
             </div>
         </div>
@@ -102,13 +102,13 @@
     <div class="row">
         <div class="col-lg-3 col-md-3 col-xs-6 text-center">
             <div class="service-box service-box-mod">
-                <i class=" languages-icon"></i>
+                <i class="fa fa-chrome languages-icon"></i>
                 <h3>web</h3>
             </div>
         </div>
         <div class="col-lg-3 col-md-3 col-xs-6 text-center">
             <div class="service-box service-box-mod">
-                <i class="icon-raspberrypi languages-icon"></i>
+                <i class="icon-raspberrypi languages-icon" style="margin-left: 40px;"></i>
                 <h3>raspberry pi</h3>
                 
             </div>
