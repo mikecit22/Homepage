@@ -84,7 +84,7 @@
                 <div class="intro-lead-in">
                 <span style="position: relative;">Challenges are what make life interesting; overcoming them is what makes life meaningful.</span>
                 </div>
-                <div class="intro-lead-in" style="text-align:right;font-size:25px !important;">Joshua J. Marine</div>
+                <div class="intro-lead-in" style="text-align:right;font-size:15px !important;">Joshua J. Marine</div>
             </div>
         </div>
     </header>
