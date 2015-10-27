@@ -8,32 +8,56 @@
 </div>
 <div class="container">
     <div class="row">
-        <div class="col-lg-3 col-md-3 text-center">
-            <div class="service-box">
-                <i class="icon-java languages-icon"></i>
+        <div class="col-lg-3 col-md-3 col-xs-6 text-center">
+            <div class="service-box service-box-mod">
+                <i class="icon-java-bold languages-icon"></i>
                 <h3>JAVA</h3>
-
             </div>
         </div>
-        <div class="col-lg-3 col-md-3 text-center">
-            <div class="service-box">
+        <div class="col-lg-3 col-md-3 col-xs-6 text-center">
+            <div class="service-box service-box-mod">
                 <i class="icon-php languages-icon"></i>
                 <h3>PHP</h3>
                 
             </div>
         </div>
-        <div class="col-lg-3 col-md-3 text-center">
-            <div class="service-box">
-                <i class="icon-java languages-icon"></i>
-                <h3>Up to Date</h3>
-                <p class="text-muted">We update dependencies to keep things fresh.</p>
+        <div class="col-lg-3 col-md-3 col-xs-6 text-center">
+            <div class="service-box service-box-mod">
+                <i class="icon-mysql languages-icon"></i>
+                <h3>MySQL</h3>
             </div>
         </div>
-        <div class="col-lg-3 col-md-3 text-center">
-            <div class="service-box">
-                <i class="icon-java languages-icon"></i>
-                <h3>Made with Love</h3>
-                <p class="text-muted">You have to make your websites with love these days!</p>
+        <div class="col-lg-3 col-md-3 col-xs-6 text-center">
+            <div class="service-box service-box-mod">
+                <i class="icon-c languages-icon"></i>
+                <h3>ColdFusion</h3>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-3 col-md-3 col-xs-6 text-center">
+            <div class="service-box service-box-mod">
+                <i class="fa fa-html5 languages-icon"></i>
+                <h3>HTML5</h3>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-xs-6 text-center">
+            <div class="service-box service-box-mod">
+                <i class="fa fa-css3 languages-icon"></i>
+                <h3>CSS3</h3>
+                
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-xs-6 text-center">
+            <div class="service-box service-box-mod">
+                <i class="icon-javascript languages-icon"></i>
+                <h3>JavaScript</h3>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-xs-6 text-center">
+            <div class="service-box service-box-mod">
+                <i class="icon-c languages-icon"></i>
+                <h3>XML</h3>
             </div>
         </div>
     </div>

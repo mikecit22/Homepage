@@ -10,7 +10,23 @@ body {
 }
 
 .languages-icon{
-    font-size: 130px;
+    font-size: 130px !important;
+}
+
+.fa-css3{
+    margin-top: 45px;
+}
+
+.fa-html5{
+    margin-top: 45px;
+}
+
+.service-box-mod{
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 50px;
+    min-height: 260px;
+    margin-bottom: 10px;
 }
 
 .image-filter{
