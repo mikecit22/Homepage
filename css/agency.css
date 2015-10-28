@@ -9,8 +9,26 @@ body {
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
-.languages-icon{
+
+/*@media (max-width: @screen-xs) {
+    body{font-size: 10px;}
+}
+*/
+
+
+
+/*.languages-icon{
     font-size: 130px !important;
+}*/
+
+@media (max-width: 768px) {
+    .languages-icon{font-size: 70px !important;}
+    .service-box-mod {min-height: 150px !important;}
+    .service-box-mod h3{font-size: 12px;}
+}
+
+@media (min-width: 769px) {
+    .languages-icon{font-size: 130px !important;}
 }
 
 .fa-css3{
