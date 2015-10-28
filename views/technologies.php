@@ -143,7 +143,7 @@
         </div>
         <div class="col-lg-3 col-md-4 col-sm-4 col-sm-offset-0 col-xs-6 col-xs-offset-0 text-center">
             <div class="service-box service-box-mod">
-                <i class="php languages-icon"></i>
+                <i class="fa fa-eye languages-icon" style="margin-top: 40px;"></i>
                 <h3>Ionic</h3>
                 
             </div>
