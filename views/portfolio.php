@@ -14,7 +14,7 @@
                     </div>
                 </div>
                 <!-- <img src="img/portfolio/op.jpg" class="img-responsive" alt=""> -->
-                <i class="icon-html languages-icon" style="margin-left: 120px;color:white;"></i>
+                <i class="icon-html portfolio-icon" style="margin-left: 120px;color:white;"></i>
             </a>
             <div class="portfolio-caption">
                 <h4>OmniPlanner</h4>
@@ -42,7 +42,7 @@
                         <i class="fa fa-link " style="font-size:60px;"></i>
                     </div>
                 </div>
-                <i class="fa fa-android languages-icon" style="margin-top: 40px;color:white"></i>
+                <i class="fa fa-android portfolio-icon" style="margin-top: 40px;color:white"></i>
                 <!-- <img src="img/portfolio/send.jpg" class="img-responsive" alt=""> -->
             </a>
             <div class="portfolio-caption">
