@@ -121,6 +121,8 @@
                         </li>
                         <li><a href="https://www.linkedin.com/profile/view?id=AAIAAA7QlkEBZrkvNp8FBQqT7K3IEnvQ_C8CvII"><i class="fa fa-linkedin"></i></a>
                         </li>
+                        <li><a href="https://github.com/mikecit22"><i class="fa fa-github"></i></a>
+                        </li>
                     </ul>
                 </div>
                 <div class="col-md-4">
