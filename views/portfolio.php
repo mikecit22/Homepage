@@ -7,7 +7,7 @@
     </div>
     <div class="row">
         <div class="col-md-4 col-sm-6 portfolio-item">
-            <a href="http://citrosystems.com/websites/omniplanner/" class="portfolio-link" data-toggle="modal" style="background:#2196F3;">
+            <a href="https://web.njit.edu/~mc332/op/" class="portfolio-link" data-toggle="modal" style="background:#2196F3;">
                 <div class="portfolio-hover">
                     <div class="portfolio-hover-content">
                         <i class="fa fa-link " style="font-size:60px;"></i>
