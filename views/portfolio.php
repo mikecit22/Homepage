@@ -7,6 +7,20 @@
     </div>
     <div class="row">
         <div class="col-md-4 col-sm-6 portfolio-item">
+            <a href="http://alcontractingllc.com" class="portfolio-link" data-toggle="modal">
+                <div class="portfolio-hover">
+                    <div class="portfolio-hover-content">
+                        <i class="fa fa-link " style="font-size:60px;"></i>
+                    </div>
+                </div>
+                <img src="img/portfolio/andy.png" class="img-responsive" alt="">
+            </a>
+            <div class="portfolio-caption">
+                <h4>A.L. Contracting</h4>
+                <p class="text-muted">A Contracting Company Client</p>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio-item">
             <a href="https://web.njit.edu/~mc332/op/" class="portfolio-link" data-toggle="modal" style="background:#2196F3;">
                 <div class="portfolio-hover">
                     <div class="portfolio-hover-content">
@@ -21,20 +35,6 @@
                 <p class="text-muted">Cloud Planner</p>
             </div>
         </div>
-<!--         <div class="col-md-4 col-sm-6 portfolio-item">
-            <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                <div class="portfolio-hover">
-                    <div class="portfolio-hover-content">
-                        <i class="fa fa-link " style="font-size:60px;"></i>
-                    </div>
-                </div>
-                <img src="img/portfolio/op.jpg" class="img-responsive" alt="">
-            </a>
-            <div class="portfolio-caption">
-                <h4>Startup Framework</h4>
-                <p class="text-muted">Website Design</p>
-            </div>
-        </div> -->
         <div class="col-md-4 col-sm-6 portfolio-item" style="text-align:center">
             <a href="https://play.google.com/store/apps/details?id=com.app.citro.SEND&hl=en" class="portfolio-link" data-toggle="modal" style="background:#A4C739">
                 <div class="portfolio-hover">
