@@ -1,6 +1,0 @@
-cd /Applications/MAMP/htdocs/MichaelCitro
-git add .
-git commit -m "auto push"
-git push origin master
-
-ssh git@csserver ./Up* citro
