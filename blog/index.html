@@ -52,6 +52,7 @@
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-lg-12 col-md-12 text-center">
+					<div class="fb-like" data-href="https://citrosystems.com/Homepage/blog" data-layout="button_count" data-action="like" data-size="large" data-show-faces="true" data-share="true" style="position: fixed; top: 5px; right: 15px;"></div>
 					<a href="https://citrosystems.com"><img src="../img/pp.jpg" style="width: 300px;border-radius: 4px"></a>
 					<h1 id="citro-logo" style="border-bottom: 1px solid black; padding-bottom: 15px;"><a href="https://citrosystems.com">Michael Citro's Blog</a></h1>
 					<h3 class="citro-article-title animate-box">Welcome, please read this intro to get a better understanding of what topices i will be covering, Thank You.</h3>
@@ -81,8 +82,9 @@
 
 		</div>
 	</div>
-
+	<div class="fb-comments" data-href="https://citrosystems.com/Homepage/blog" data-numposts="5"></div>
 	<footer id="citro-footer">
+	<div id="fb-root"></div>
 		<p><small>&copy; 2016. Michael Citro. All Rights Reserverd.</small></p>
 	</footer>
 
@@ -98,7 +100,36 @@
 	<script src="js/jquery.waypoints.min.js"></script>
 	<!-- Main JS -->
 	<script src="js/main.js"></script>
+	<!-- Facebook like button -->
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.7";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));
+	</script>
 
+	<!-- Facebook Comments -->
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.7";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+
+	<!-- Google Anily -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    
+      ga('create', 'UA-42972594-1', 'auto');
+      ga('send', 'pageview');
+    
+    </script>
 	</body>
 </html>
 
