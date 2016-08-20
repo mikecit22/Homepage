@@ -32,7 +32,7 @@ $font-secondary: 'Roboto', arial, sans-serif;;
     -ms-transition: 		all $transition $ease;
     transition:         all $transition $ease;
 }
-@mixin fh5co-translateX($translatex) {
+@mixin citro-translateX($translatex) {
 	-moz-transform: translateX($translatex);
 	-webkit-transform: translateX($translatex);
 	-ms-transform: translateX($translatex);
@@ -107,7 +107,7 @@ body {
 	line-height: 1.8;
 	color: #222;
 	background: $brand-white;
-	&.fh5co-overflow {
+	&.citro-overflow {
 		overflow-x: auto;	
 	}
 }
@@ -286,7 +286,7 @@ p {
   }
 }
 
-#fh5co-header {
+#citro-header {
 	padding: 3em 3em;
 	float: left;
 	width: 100%;
@@ -297,7 +297,7 @@ p {
 	@media screen and (max-width: $screen-xs) {
 		padding-bottom: 5em!important;
 	}
-	.fh5co-nav-toggle {
+	.citro-nav-toggle {
 		position: absolute;
 		top: 4.2em;
 		left: 3em;
@@ -311,7 +311,7 @@ p {
 			left: 15px;
 		}
 	}
-	.fh5co-social {
+	.citro-social {
 		
 		position: absolute!important;
 		right: 3em!important;
@@ -340,7 +340,7 @@ p {
 		padding-left: 15px;
 		padding-right: 15px;
 	}
-	#fh5co-logo {
+	#citro-logo {
 		
 		text-align: center;
 		a {
@@ -353,8 +353,8 @@ p {
 	}
 
 }
-.fh5co-post-prev,
-.fh5co-post-next {
+.citro-post-prev,
+.citro-post-next {
 	position: fixed;
 	z-index: 999;
 	top: 50%;
@@ -382,7 +382,7 @@ p {
 		}
 	}
 }
-.fh5co-post-prev {
+.citro-post-prev {
 	left: 0;
 	margin-left: -25px;
 	&:hover {
@@ -394,7 +394,7 @@ p {
 		float: left;
 	}
 }
-.fh5co-post-next {
+.citro-post-next {
 	right: 0;	
 	margin-right: -25px;
 	
@@ -407,9 +407,9 @@ p {
 		float: right;
 	}
 }
-.fh5co-post-entry {
+.citro-post-entry {
 	&.single-entry {
-		.fh5co-article-title {
+		.citro-article-title {
 			font-size: 80px;
 			@media screen and (max-width: $screen-md) {
 				font-size: 56px;
@@ -470,7 +470,7 @@ p {
 				margin-bottom: 20px;
 			}
 		}
-		.fh5co-meta {
+		.citro-meta {
 			font-size: 16px;
 			font-family: $font-secondary;
 			color: lighten($brand-black, 60%);
@@ -479,7 +479,7 @@ p {
 			@media screen and (max-width: $screen-xs) {
 				margin-bottom: 10px;
 			}
-			&.fh5co-date {
+			&.citro-date {
 				text-transform: uppercase;
 				letter-spacing: 2px;
 			}
@@ -510,7 +510,7 @@ p {
 			} 
 		}
 
-		.fh5co-highlight {
+		.citro-highlight {
 			border: 4px solid lighten($brand-black, 95%);
 			padding: 30px;
 			width: 100%;
@@ -539,7 +539,7 @@ p {
 	}
 }
 
-.fh5co-social {
+.citro-social {
 	padding: 0;
 	margin: 30px 0 0 0;
 	position: relative;
@@ -565,7 +565,7 @@ figure {
 	}
 }
 
-#fh5co-offcanvas {
+#citro-offcanvas {
 	background: $brand-white;
 	position: fixed;
 	top: 0;
@@ -580,7 +580,7 @@ figure {
 		padding-top: 30px;
 		width: 270px;
 	}
-	.fh5co-close-offcanvas {
+	.citro-close-offcanvas {
 		position: absolute;
 		top: 20px;
 		right: 20px;
@@ -608,13 +608,13 @@ figure {
 		}
 		
 	}
-	.fh5co-box {
+	.citro-box {
 		float: left;
 		margin-bottom: 30px;
 		width: 100%;
 	}
-	.fh5co-menu,
-	.fh5co-bio {
+	.citro-menu,
+	.citro-bio {
 		width: 50%;
 		padding: 50px;
 		@media screen and (max-width: $screen-sm) {
@@ -622,7 +622,7 @@ figure {
 			padding: 30px;
 		}
 	}
-	.fh5co-bio {
+	.citro-bio {
 		text-align: center;
 		float: left;
 		figure {
@@ -646,7 +646,7 @@ figure {
 		color: lighten($brand-black, 80%);
 		margin-bottom: 30px;
 	}
-	.fh5co-menu {
+	.citro-menu {
 		float: right;
 
 		ul {
@@ -667,7 +667,7 @@ figure {
 }
 
 
-#fh5co-footer {
+#citro-footer {
 	padding: 3em 0;
 	text-align: center;
 }
@@ -682,7 +682,7 @@ figure {
 }
 
 // Burger Menu
-.fh5co-nav-toggle {
+.citro-nav-toggle {
   width: 25px;
   height: 25px;
   cursor: pointer;
@@ -719,22 +719,22 @@ figure {
   }
 }
 
-.fh5co-nav-toggle i::before {
+.citro-nav-toggle i::before {
   top: -7px;
 }
-.fh5co-nav-toggle i::after {
+.citro-nav-toggle i::after {
   bottom: -7px;
 }
-.fh5co-nav-toggle:hover i::before {
+.citro-nav-toggle:hover i::before {
   top: -10px;
 }
-.fh5co-nav-toggle:hover i::after {
+.citro-nav-toggle:hover i::after {
   bottom: -10px;
 }
-.fh5co-nav-toggle.active i {
+.citro-nav-toggle.active i {
 	background: transparent;
 }
-.fh5co-nav-toggle.active i::before {
+.citro-nav-toggle.active i::before {
   top:0;
   -webkit-transform: rotateZ(45deg);
      -moz-transform: rotateZ(45deg);
@@ -742,7 +742,7 @@ figure {
        -o-transform: rotateZ(45deg);
           transform: rotateZ(45deg);
 }
-.fh5co-nav-toggle.active i::after {
+.citro-nav-toggle.active i::after {
   bottom:0;
   -webkit-transform: rotateZ(-45deg);
      -moz-transform: rotateZ(-45deg);
@@ -750,7 +750,7 @@ figure {
        -o-transform: rotateZ(-45deg);
           transform: rotateZ(-45deg);
 }
-.fh5co-nav-toggle {
+.citro-nav-toggle {
   position: absolute;
   top: 18px;
   left: 0;
@@ -771,7 +771,7 @@ figure {
 
 
 // Menu bar Animate
-.fh5co-animated {
+.citro-animated {
   -webkit-animation-duration: .3s;
   animation-duration: .3s;
   -webkit-animation-fill-mode: both;

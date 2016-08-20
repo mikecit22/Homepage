@@ -17,7 +17,7 @@ body {
   color: #222;
   background: #fff;
 }
-body.fh5co-overflow {
+body.citro-overflow {
   overflow-x: auto;
 }
 
@@ -207,41 +207,54 @@ p {
   border-color: #f7c873;
 }
 
-#fh5co-header {
+#citro-header {
   padding: 3em 3em;
   float: left;
   width: 100%;
 }
 @media screen and (max-width: 1200px) {
-  #fh5co-header {
+  #citro-header {
     padding-left: 15px;
     padding-right: 15px;
   }
 }
+
+@media screen and (min-width: 1200px) {
+  .intro-ptag{
+    padding: 0px 200px 0px 200px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .intro-ptag{
+    padding: 0px 100px 0px 100px;
+  }
+}
+
 @media screen and (max-width: 480px) {
-  #fh5co-header {
+  #citro-header {
     padding-bottom: 5em !important;
   }
 }
-#fh5co-header .fh5co-nav-toggle {
+#citro-header .citro-nav-toggle {
   position: absolute;
   top: 4.2em;
   left: 3em;
   z-index: 99;
 }
 @media screen and (max-width: 1200px) {
-  #fh5co-header .fh5co-nav-toggle {
+  #citro-header .citro-nav-toggle {
     top: 4em;
     left: 15px;
   }
 }
 @media screen and (max-width: 768px) {
-  #fh5co-header .fh5co-nav-toggle {
+  #citro-header .citro-nav-toggle {
     top: 2.5em;
     left: 15px;
   }
 }
-#fh5co-header .fh5co-social {
+#citro-header .citro-social {
   position: absolute !important;
   right: 3em !important;
   top: 3.2em;
@@ -251,19 +264,19 @@ p {
   transition: 0.5s;
 }
 @media screen and (max-width: 1200px) {
-  #fh5co-header .fh5co-social {
+  #citro-header .citro-social {
     right: 15px !important;
     top: 3.2em;
   }
 }
 @media screen and (max-width: 768px) {
-  #fh5co-header .fh5co-social {
+  #citro-header .citro-social {
     right: 15px !important;
     top: 1.5em;
   }
 }
 @media screen and (max-width: 480px) {
-  #fh5co-header .fh5co-social {
+  #citro-header .citro-social {
     right: inherit !important;
     left: inherit !important;
     top: 5em;
@@ -272,26 +285,26 @@ p {
   }
 }
 @media screen and (max-width: 768px) {
-  #fh5co-header {
+  #citro-header {
     padding-top: 1.5em;
     padding-bottom: 1.5em;
     padding-left: 15px;
     padding-right: 15px;
   }
 }
-#fh5co-header #fh5co-logo {
+#citro-header #citro-logo {
   text-align: center;
 }
-#fh5co-header #fh5co-logo a {
+#citro-header #citro-logo a {
   color: #000;
 }
-#fh5co-header #fh5co-logo a sup {
+#citro-header #citro-logo a sup {
   font-size: 20px;
   top: -20px;
 }
 
-.fh5co-post-prev,
-.fh5co-post-next {
+.citro-post-prev,
+.citro-post-next {
   position: fixed;
   z-index: 999;
   top: 50%;
@@ -305,8 +318,8 @@ p {
   transition: 0.5s;
 }
 @media screen and (max-width: 768px) {
-  .fh5co-post-prev,
-  .fh5co-post-next {
+  .citro-post-prev,
+  .citro-post-next {
     position: relative;
     text-align: center;
     display: -moz-inline-stack;
@@ -315,63 +328,63 @@ p {
     *display: inline;
   }
 }
-.fh5co-post-prev span,
-.fh5co-post-next span {
+.citro-post-prev span,
+.citro-post-next span {
   vertical-align: base;
   width: 100px;
 }
-.fh5co-post-prev span i,
-.fh5co-post-next span i {
+.citro-post-prev span i,
+.citro-post-next span i {
   top: 7px;
   position: relative;
   font-size: 30px;
   color: #000;
 }
 
-.fh5co-post-prev {
+.citro-post-prev {
   left: 0;
   margin-left: -25px;
 }
-.fh5co-post-prev:hover {
+.citro-post-prev:hover {
   margin-left: 10px;
   color: #000;
 }
 @media screen and (max-width: 768px) {
-  .fh5co-post-prev {
+  .citro-post-prev {
     margin-left: 15px;
     float: left;
   }
 }
 
-.fh5co-post-next {
+.citro-post-next {
   right: 0;
   margin-right: -25px;
 }
-.fh5co-post-next:hover {
+.citro-post-next:hover {
   margin-right: 10px;
   color: #000;
 }
 @media screen and (max-width: 768px) {
-  .fh5co-post-next {
+  .citro-post-next {
     margin-right: 15px;
     float: right;
   }
 }
 
-.fh5co-post-entry.single-entry .fh5co-article-title {
+.citro-post-entry.single-entry .citro-article-title {
   font-size: 80px;
 }
 @media screen and (max-width: 992px) {
-  .fh5co-post-entry.single-entry .fh5co-article-title {
+  .citro-post-entry.single-entry .citro-article-title {
     font-size: 56px;
   }
 }
 @media screen and (max-width: 768px) {
-  .fh5co-post-entry.single-entry .fh5co-article-title {
+  .citro-post-entry.single-entry .citro-article-title {
     font-size: 34px;
   }
 }
-.fh5co-post-entry article {
+.citro-post-entry article {
   text-align: center;
   float: left;
   margin-bottom: 110px;
@@ -379,59 +392,59 @@ p {
   padding-right: 3em;
 }
 @media screen and (max-width: 1200px) {
-  .fh5co-post-entry article {
+  .citro-post-entry article {
     margin-bottom: 80px;
     padding-left: 15px;
     padding-right: 15px;
   }
 }
 @media screen and (max-width: 992px) {
-  .fh5co-post-entry article {
+  .citro-post-entry article {
     margin-bottom: 80px;
     padding-left: 15px;
     padding-right: 15px;
   }
 }
 @media screen and (max-width: 768px) {
-  .fh5co-post-entry article {
+  .citro-post-entry article {
     margin-bottom: 40px;
     padding-left: 15px;
     padding-right: 15px;
   }
 }
-.fh5co-post-entry article a img {
+.citro-post-entry article a img {
   opacity: 1;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
-.fh5co-post-entry article a:hover img {
+.citro-post-entry article a:hover img {
   opacity: .4;
 }
-.fh5co-post-entry article figure {
+.citro-post-entry article figure {
   margin-bottom: 30px;
 }
-.fh5co-post-entry article h2 {
+.citro-post-entry article h2 {
   font-family: "Playfair Display", times, serif;
   font-size: 34px;
   color: #000;
   margin-bottom: 30px;
 }
-.fh5co-post-entry article h2 a {
+.citro-post-entry article h2 a {
   color: #000;
 }
 @media screen and (max-width: 992px) {
-  .fh5co-post-entry article h2 {
+  .citro-post-entry article h2 {
     font-size: 26px;
   }
 }
 @media screen and (max-width: 768px) {
-  .fh5co-post-entry article h2 {
+  .citro-post-entry article h2 {
     font-size: 24px;
     margin-bottom: 20px;
   }
 }
-.fh5co-post-entry article .fh5co-meta {
+.citro-post-entry article .citro-meta {
   font-size: 16px;
   font-family: "Roboto", arial, sans-serif;
   color: #999999;
@@ -439,75 +452,75 @@ p {
   display: block;
 }
 @media screen and (max-width: 480px) {
-  .fh5co-post-entry article .fh5co-meta {
+  .citro-post-entry article .citro-meta {
     margin-bottom: 10px;
   }
 }
-.fh5co-post-entry article .fh5co-meta.fh5co-date {
+.citro-post-entry article .citro-meta.citro-date {
   text-transform: uppercase;
   letter-spacing: 2px;
 }
-.fh5co-post-entry article .content-article {
+.citro-post-entry article .content-article {
   padding-top: 4em;
 }
-.fh5co-post-entry article .content-article a {
+.citro-post-entry article .content-article a {
   text-decoration: underline;
 }
-.fh5co-post-entry article .content-article blockquote {
+.citro-post-entry article .content-article blockquote {
   border-left: none;
   padding-left: 0;
 }
-.fh5co-post-entry article .content-article blockquote p {
+.citro-post-entry article .content-article blockquote p {
   font-family: "Playfair Display", times, serif;
   font-size: 27px;
   font-style: italic;
   line-height: 1.5;
 }
-.fh5co-post-entry article .content-article blockquote p cite {
+.citro-post-entry article .content-article blockquote p cite {
   padding-top: 20px;
   display: block;
   font-size: 16px;
   font-style: normal;
   color: gray;
 }
-.fh5co-post-entry article .fh5co-highlight {
+.citro-post-entry article .citro-highlight {
   border: 4px solid #f2f2f2;
   padding: 30px;
   width: 100%;
   margin-bottom: 30px;
 }
-.fh5co-post-entry article .fh5co-highlight.right {
+.citro-post-entry article .citro-highlight.right {
   float: right;
   margin-left: 30px;
 }
-.fh5co-post-entry article .fh5co-highlight.left {
+.citro-post-entry article .citro-highlight.left {
   float: left;
 }
-.fh5co-post-entry article .fh5co-highlight h4 {
+.citro-post-entry article .citro-highlight h4 {
   font-size: 14px;
   letter-spacing: 2px;
   color: #b3b3b3;
   text-transform: uppercase;
   font-family: "Roboto", arial, sans-serif;
 }
-.fh5co-post-entry article .fh5co-highlight p {
+.citro-post-entry article .citro-highlight p {
   font-family: "Playfair Display", times, serif;
   color: #000;
   font-size: 20px;
 }
 
-.fh5co-social {
+.citro-social {
   padding: 0;
   margin: 30px 0 0 0;
   position: relative;
 }
-.fh5co-social li {
+.citro-social li {
   padding: 0;
   margin: 0;
   list-style: none;
   display: inline;
 }
-.fh5co-social li a {
+.citro-social li a {
   font-size: 20px;
   padding: 4px;
   color: #000;
@@ -519,7 +532,7 @@ figure figcaption {
   color: #999999;
 }
 
-#fh5co-offcanvas {
+#citro-offcanvas {
   background: #fff;
   position: fixed;
   top: 0;
@@ -532,12 +545,12 @@ figure figcaption {
   display: none;
 }
 @media screen and (max-width: 768px) {
-  #fh5co-offcanvas {
+  #citro-offcanvas {
     padding-top: 30px;
     width: 270px;
   }
 }
-#fh5co-offcanvas .fh5co-close-offcanvas {
+#citro-offcanvas .citro-close-offcanvas {
   position: absolute;
   top: 20px;
   right: 20px;
@@ -550,54 +563,54 @@ figure figcaption {
   transition: 0.3s;
 }
 @media screen and (max-width: 768px) {
-  #fh5co-offcanvas .fh5co-close-offcanvas {
+  #citro-offcanvas .citro-close-offcanvas {
     top: 5px;
   }
 }
-#fh5co-offcanvas .fh5co-close-offcanvas:hover {
+#citro-offcanvas .citro-close-offcanvas:hover {
   width: 85px;
   color: #000;
 }
-#fh5co-offcanvas .fh5co-close-offcanvas > span {
+#citro-offcanvas .citro-close-offcanvas > span {
   width: 100px;
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
   *display: inline;
 }
-#fh5co-offcanvas .fh5co-close-offcanvas > span > span {
+#citro-offcanvas .citro-close-offcanvas > span > span {
   top: 7px;
   position: relative;
   font-size: 18px;
   vertical-align: top;
 }
-#fh5co-offcanvas .fh5co-box {
+#citro-offcanvas .citro-box {
   float: left;
   margin-bottom: 30px;
   width: 100%;
 }
-#fh5co-offcanvas .fh5co-menu,
-#fh5co-offcanvas .fh5co-bio {
+#citro-offcanvas .citro-menu,
+#citro-offcanvas .citro-bio {
   width: 50%;
   padding: 50px;
 }
 @media screen and (max-width: 768px) {
-  #fh5co-offcanvas .fh5co-menu,
-  #fh5co-offcanvas .fh5co-bio {
+  #citro-offcanvas .citro-menu,
+  #citro-offcanvas .citro-bio {
     width: 100%;
     padding: 30px;
   }
 }
-#fh5co-offcanvas .fh5co-bio {
+#citro-offcanvas .citro-bio {
   text-align: center;
   float: left;
 }
-#fh5co-offcanvas .fh5co-bio figure {
+#citro-offcanvas .citro-bio figure {
   text-align: center;
   display: block;
   margin-bottom: 30px;
 }
-#fh5co-offcanvas .fh5co-bio img {
+#citro-offcanvas .citro-bio img {
   width: 180px;
   margin: 0 auto;
   -webkit-border-radius: 50%;
@@ -605,34 +618,34 @@ figure figcaption {
   -ms-border-radius: 50%;
   border-radius: 50%;
 }
-#fh5co-offcanvas .fh5co-bio p {
+#citro-offcanvas .citro-bio p {
   font-size: 16px;
 }
-#fh5co-offcanvas .heading {
+#citro-offcanvas .heading {
   font-size: 16px;
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #cccccc;
   margin-bottom: 30px;
 }
-#fh5co-offcanvas .fh5co-menu {
+#citro-offcanvas .citro-menu {
   float: right;
 }
-#fh5co-offcanvas .fh5co-menu ul {
+#citro-offcanvas .citro-menu ul {
   padding: 0;
   margin: 0;
 }
-#fh5co-offcanvas .fh5co-menu ul li {
+#citro-offcanvas .citro-menu ul li {
   padding: 0;
   margin: 0 0 10px 0;
   list-style: none;
   display: block;
 }
-#fh5co-offcanvas .fh5co-menu ul li a {
+#citro-offcanvas .citro-menu ul li a {
   color: #000;
 }
 
-#fh5co-footer {
+#citro-footer {
   padding: 3em 0;
   text-align: center;
 }
@@ -643,20 +656,20 @@ figure figcaption {
   opacity: 0;
 }
 
-.fh5co-nav-toggle {
+.citro-nav-toggle {
   width: 25px;
   height: 25px;
   cursor: pointer;
   text-decoration: none;
 }
-.fh5co-nav-toggle.active i::before, .fh5co-nav-toggle.active i::after {
+.citro-nav-toggle.active i::before, .citro-nav-toggle.active i::after {
   background: #f7c873;
 }
-.fh5co-nav-toggle:hover, .fh5co-nav-toggle:focus, .fh5co-nav-toggle:active {
+.citro-nav-toggle:hover, .citro-nav-toggle:focus, .citro-nav-toggle:active {
   outline: none;
   border-bottom: none !important;
 }
-.fh5co-nav-toggle i {
+.citro-nav-toggle i {
   position: relative;
   display: -moz-inline-stack;
   display: inline-block;
@@ -671,7 +684,7 @@ figure figcaption {
   background: #535659;
   transition: all .2s ease-out;
 }
-.fh5co-nav-toggle i::before, .fh5co-nav-toggle i::after {
+.citro-nav-toggle i::before, .citro-nav-toggle i::after {
   content: '';
   width: 25px;
   height: 3px;
@@ -683,27 +696,27 @@ figure figcaption {
   transition: 0.2s;
 }
 
-.fh5co-nav-toggle i::before {
+.citro-nav-toggle i::before {
   top: -7px;
 }
 
-.fh5co-nav-toggle i::after {
+.citro-nav-toggle i::after {
   bottom: -7px;
 }
 
-.fh5co-nav-toggle:hover i::before {
+.citro-nav-toggle:hover i::before {
   top: -10px;
 }
 
-.fh5co-nav-toggle:hover i::after {
+.citro-nav-toggle:hover i::after {
   bottom: -10px;
 }
 
-.fh5co-nav-toggle.active i {
+.citro-nav-toggle.active i {
   background: transparent;
 }
 
-.fh5co-nav-toggle.active i::before {
+.citro-nav-toggle.active i::before {
   top: 0;
   -webkit-transform: rotateZ(45deg);
   -moz-transform: rotateZ(45deg);
@@ -712,7 +725,7 @@ figure figcaption {
   transform: rotateZ(45deg);
 }
 
-.fh5co-nav-toggle.active i::after {
+.citro-nav-toggle.active i::after {
   bottom: 0;
   -webkit-transform: rotateZ(-45deg);
   -moz-transform: rotateZ(-45deg);
@@ -721,7 +734,7 @@ figure figcaption {
   transform: rotateZ(-45deg);
 }
 
-.fh5co-nav-toggle {
+.citro-nav-toggle {
   position: absolute;
   top: 18px;
   left: 0;
@@ -735,12 +748,12 @@ figure figcaption {
   border-bottom: none !important;
 }
 @media screen and (max-width: 768px) {
-  .fh5co-nav-toggle {
+  .citro-nav-toggle {
     display: block;
   }
 }
 
-.fh5co-animated {
+.citro-animated {
   -webkit-animation-duration: .3s;
   animation-duration: .3s;
   -webkit-animation-fill-mode: both;
