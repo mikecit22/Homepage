@@ -49,9 +49,7 @@
 			.menu.sticky a{
 				font-size: 22px;
 			}
-
 		}
-
 		p{
 			font-family: thinfont;
 		    letter-spacing: .01rem;
@@ -61,10 +59,14 @@
 		    letter-spacing: -.003em;
 		    color: rgba(0,0,0,.7);
 		}
-			.intro-header{
-			    font-size: 40px !important;
-			    margin-top: 25px !important;
-			}
+		.intro-header{
+		    font-size: 40px !important;
+		    margin-top: 25px !important;
+		}
+
+		.item.overright:before{
+			content: none !important;
+		}
 	</style>
 </head>
 <body>
@@ -73,8 +75,8 @@
 	    Introduction
 	  </a>
 	  <div class="right menu">
-	    <div class="item">
- 			<div class="fb-like" data-href="https://citrosystems.com/Homepage/blog" data-layout="button_count" data-action="like" data-size="large" data-show-faces="true" data-share="true" ></div>
+	    	<div class="item overright">
+ 				<div class="fb-like" data-href="https://citrosystems.com/Homepage/blog" data-layout="button_count" data-action="like" data-size="large" data-show-faces="true" data-share="true" ></div>
 	      </div>
 	    </div>
 	  </div>
