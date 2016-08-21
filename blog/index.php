@@ -41,13 +41,17 @@
 			p{
 				font-size: 25px;
 			}
+			.ui.grid.body{
+				max-width: 700px;
+				margin-left: calc((100% - 700px)/2);
+			}
 		}
 		@media (min-width: 1100px) {
 			p{
-				font-size: 30px;
+				font-size: 28px;
 			}
 			.menu.sticky a{
-				font-size: 22px;
+				font-size: 20px;
 			}
 		}
 		p{
@@ -74,6 +78,9 @@
 	  <a class="active item">
 	    Introduction
 	  </a>
+	  <a class="item">
+	    Posts
+	  </a>
 	  <div class="right menu">
 	    	<div class="item overright">
  				<div class="fb-like" data-href="https://citrosystems.com/Homepage/blog" data-layout="button_count" data-action="like" data-size="large" data-show-faces="true" data-share="true" ></div>
@@ -81,7 +88,7 @@
 	    </div>
 	  </div>
 	</div>
-	<div class="ui centered grid">
+	<div class="ui centered grid body">
 		<div class="sixteen wide column">
 			<div class="ui items" style="padding: 0px 30px 0px 30px;">
 			  <div class="item">
@@ -163,7 +170,7 @@
 			$(document).ready(function(){
 				$('.ui.sticky.menu')
 				  .sticky({
-				    context: 'html'
+				    context: '.centered.grid.body'
 				  });
 			})
 		</script>
