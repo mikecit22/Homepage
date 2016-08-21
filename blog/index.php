@@ -22,6 +22,18 @@
 
 	<link rel="shortcut icon" href="favicon.ico">
 	<link rel="stylesheet" type="text/css" href="lib/semantic/semantic.min.css">
+
+	<style type="text/css">
+		p{
+			font-family: medium-content-serif-font,Georgia,Cambria,"Times New Roman",Times,serif;
+		    letter-spacing: .01rem;
+		    font-weight: 400;
+		    font-style: normal;
+		    font-size: 21px;
+		    line-height: 1.58;
+		    letter-spacing: -.003em;
+		}
+	</style>
 </head>
 <body>
 	<div class="ui pointing menu sticky">
@@ -37,22 +49,16 @@
 	</div>
 	<div class="ui centered grid">
 		<div class="sixteen wide column">
-			<div class="ui link cards centered">
-				<div class="card">
-					<div class="image">
-						<img src="../img/pp.jpg">
-					</div>
-					<div class="content">
-						<div class="header">Michael Citro' Blog</div>
-						<div class="description">
-							Updated on August 20, 2016
-						</div>
-					</div>
-				</div>
+
+		<div class="ui centered grid">
+			<div class="eight wide column">
+				<img class="ui middle aligned image" src="../img/pp.jpg" style="width:300px;border-radius:4px;">
 			</div>
-		</div>
-		<div class="sixteen wide column">
-			<h2>Welcome, please read this intro to get a better understanding of what topices i will be covering, Thank You.</h2>
+			<div class="eight wide column">
+				<h2>Welcome, please read this intro to get a better understanding of what topices i will be covering, Thank You.</h2>
+			</div>
+		</div>	
+			
 		</div>
 		<div class="sixteen wide column">
 			<h1 class="ui horizontal divider header">
@@ -114,7 +120,7 @@
 			$(document).ready(function(){
 				$('.ui.sticky.menu')
 				  .sticky({
-				    context: 'body'
+				    context: 'html'
 				  });
 			})
 		</script>
