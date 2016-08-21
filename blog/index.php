@@ -24,21 +24,53 @@
 	<link rel="stylesheet" type="text/css" href="lib/semantic/semantic.min.css">
 
 	<style type="text/css">
+		@font-face {
+			font-family: thinfont;
+			src: url("fonts/thinfont.otf") format("opentype");
+		}
+		h1, h2, h3, h4, h5, a, p, div{
+			font-family: thinfont !important;
+		}
+
+		@media (min-width: 200px) {
+			p{
+				font-size: 20px;
+			}
+		}
+		@media (min-width: 768px) {
+			p{
+				font-size: 25px;
+			}
+		}
+		@media (min-width: 1100px) {
+			p{
+				font-size: 30px;
+			}
+			.menu.sticky a{
+				font-size: 22px;
+			}
+
+		}
+
 		p{
-			font-family: medium-content-serif-font,Georgia,Cambria,"Times New Roman",Times,serif;
+			font-family: thinfont;
 		    letter-spacing: .01rem;
 		    font-weight: 400;
 		    font-style: normal;
-		    font-size: 21px;
 		    line-height: 1.58;
 		    letter-spacing: -.003em;
+		    color: rgba(0,0,0,.7);
 		}
+			.intro-header{
+			    font-size: 40px !important;
+			    margin-top: 25px !important;
+			}
 	</style>
 </head>
 <body>
 	<div class="ui pointing menu sticky">
 	  <a class="active item">
-	    Michael Citro' Blog
+	    Introduction
 	  </a>
 	  <div class="right menu">
 	    <div class="item">
@@ -49,27 +81,25 @@
 	</div>
 	<div class="ui centered grid">
 		<div class="sixteen wide column">
-<div class="ui items">
-  <div class="item">
-    <div class="image">
-      <img src="../img/pp.jpg">
-    </div>
-    <div class="content">
-      <a class="header">Header</a>
-      <div class="meta">
-        <span>Welcome, please read this intro to get a better understanding of what topices i will be covering, Thank You.</span>
-      </div>
-      <div class="description">
-        <p></p>
-      </div>
-      <div class="extra">
-        Additional Details
-      </div>
-    </div>
-  </div>
- </div>
-
-			
+			<div class="ui items" style="padding: 0px 30px 0px 30px;">
+			  <div class="item">
+			    <div class="image" style="width:250px;">
+			      <img src="../img/pp.jpg" style="width:inherit;border-radius:5px;">
+			    </div>
+			    <div class="content">
+			      <a class="intro-header header">Citro's Blog</a>
+			      <div class="meta">
+			        <h3 style="font-size:20px;">Welcome, please read this intro to get a better understanding of what topices i will be covering, Thank You.</h3>
+			      </div>
+			      <div class="description">
+			        <p></p>
+			      </div>
+			      <div class="extra">
+			        Last Updated On Agust 20th, 2016
+			      </div>
+			    </div>
+			  </div>
+			 </div>
 		</div>
 		<div class="sixteen wide column">
 			<h1 class="ui horizontal divider header">
