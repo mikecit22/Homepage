@@ -235,6 +235,12 @@ p {
   #citro-header {
     padding-bottom: 5em !important;
   }
+  .pp{
+    width: 250px !important;
+  }
+  .citro-article-title{
+    padding: 0px !important;
+  }
 }
 #citro-header .citro-nav-toggle {
   position: absolute;
