@@ -49,15 +49,26 @@
 	</div>
 	<div class="ui centered grid">
 		<div class="sixteen wide column">
+<div class="ui items">
+  <div class="item">
+    <div class="image">
+      <img src="../img/pp.jpg">
+    </div>
+    <div class="content">
+      <a class="header">Header</a>
+      <div class="meta">
+        <span>Welcome, please read this intro to get a better understanding of what topices i will be covering, Thank You.</span>
+      </div>
+      <div class="description">
+        <p></p>
+      </div>
+      <div class="extra">
+        Additional Details
+      </div>
+    </div>
+  </div>
+ </div>
 
-		<div class="ui centered grid">
-			<div class="eight wide column">
-				<img class="ui middle aligned image" src="../img/pp.jpg" style="width:300px;border-radius:4px;">
-			</div>
-			<div class="eight wide column">
-				<h2>Welcome, please read this intro to get a better understanding of what topices i will be covering, Thank You.</h2>
-			</div>
-		</div>	
 			
 		</div>
 		<div class="sixteen wide column">
