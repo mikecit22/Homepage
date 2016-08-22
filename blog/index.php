@@ -1,114 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Citro's Blog</title>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Citro Systems Blog Posting" />
-	<meta name="keywords" content="michael citro, citro blog, blog posting" />
-	<meta name="author" content="Michael Citro" />
-
-	<!-- Facebook and Twitter integration -->
-	<meta property="og:title" content=""/>
-	<meta property="og:image" content=""/>
-	<meta property="og:url" content=""/>
-	<meta property="og:site_name" content=""/>
-	<meta property="og:description" content=""/>
-	<meta name="twitter:title" content="" />
-	<meta name="twitter:image" content="" />
-	<meta name="twitter:url" content="" />
-	<meta name="twitter:card" content="" />
-
-	<link rel="shortcut icon" href="favicon.ico">
-	<link rel="stylesheet" type="text/css" href="lib/semantic/semantic.min.css">
-
-	<style type="text/css">
-		@font-face {
-			font-family: thinfont;
-			src: url("fonts/thinfont.otf") format("opentype");
-		}
-		h1, h2, h3, h4, h5, a, p, div{
-			font-family: thinfont !important;
-		}
-
-		@media (min-width: 200px) {
-			p{
-				font-size: 20px;
-			}
-		}
-		@media (min-width: 768px) {
-			p{
-				font-size: 25px;
-			}
-			.ui.grid.body{
-				max-width: 700px;
-				margin-left: calc((100% - 700px)/2);
-			}
-		}
-		@media (min-width: 1100px) {
-			p{
-				font-size: 28px;
-			}
-			.menu.sticky a{
-				font-size: 20px;
-			}
-		}
-		p{
-			font-family: thinfont;
-		    letter-spacing: .01rem;
-		    font-weight: 400;
-		    font-style: normal;
-		    line-height: 1.58;
-		    letter-spacing: -.003em;
-		    color: rgba(0,0,0,.7);
-		}
-		.intro-header{
-		    font-size: 40px !important;
-		    margin-top: 25px !important;
-		}
-
-		.item.overright:before{
-			content: none !important;
-		}
-	</style>
+	<?php  include('./partials/header.php');?>
 </head>
 <body>
-	<div class="ui pointing menu sticky">
-	  <a class="active item">
-	    Introduction
-	  </a>
-	  <a class="item">
-	    Posts
-	  </a>
-	  <div class="right menu">
-	    	<div class="item overright">
- 				<div class="fb-like" data-href="https://citrosystems.com/Homepage/blog" data-layout="button_count" data-action="like" data-size="large" data-show-faces="true" data-share="true" ></div>
-	      </div>
-	    </div>
-	  </div>
-	</div>
+	<?php  include('./partials/navbar.php');?>
 	<div class="ui centered grid body">
 		<div class="sixteen wide column">
-			<div class="ui items" style="padding: 0px 30px 0px 30px;">
-			  <div class="item">
-			    <div class="image" style="width:250px;">
-			      <img src="../img/pp.jpg" style="width:inherit;border-radius:5px;">
-			    </div>
-			    <div class="content">
-			      <a class="intro-header header">Citro's Blog</a>
-			      <div class="meta">
-			        <h3 style="font-size:20px;">Welcome, please read this intro to get a better understanding of what topices i will be covering, Thank You.</h3>
-			      </div>
-			      <div class="description">
-			        <p></p>
-			      </div>
-			      <div class="extra">
-			        Last Updated On Agust 20th, 2016
-			      </div>
-			    </div>
-			  </div>
-			 </div>
+			<?php include('./partials/banner.php'); ?>
 		</div>
 		<div class="sixteen wide column">
 			<h1 class="ui horizontal divider header">
@@ -133,47 +32,8 @@
 			<div class="fb-comments" data-href="https://citrosystems.com/Homepage/blog" data-numposts="5"></div>
 			<p style="text-align:center;"><small>&copy; 2016. Michael Citro. All Rights Reserverd.</small></p>
 		</div>
-		<div class="fb-buttons">
-		<script src="lib/jquery.min.js"></script>
-		<script src="lib/semantic/semantic.min.js"></script>
-
-		<script>(function(d, s, id) {
-			var js, fjs = d.getElementsByTagName(s)[0];
-			if (d.getElementById(id)) return;
-			js = d.createElement(s); js.id = id;
-			js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.7";
-			fjs.parentNode.insertBefore(js, fjs);
-			}(document, 'script', 'facebook-jssdk'));
-		</script>
-
-		<!-- Facebook Comments -->
-		<script>(function(d, s, id) {
-			var js, fjs = d.getElementsByTagName(s)[0];
-			if (d.getElementById(id)) return;
-			js = d.createElement(s); js.id = id;
-			js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.7";
-			fjs.parentNode.insertBefore(js, fjs);
-		}(document, 'script', 'facebook-jssdk'));</script>
-
-		<!-- Google Anily -->
-		<script>
-			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-			ga('create', 'UA-42972594-1', 'auto');
-			ga('send', 'pageview');
-		</script>
-
-		<script type="text/javascript">
-			$(document).ready(function(){
-				$('.ui.sticky.menu')
-				  .sticky({
-				    context: '.centered.grid.body'
-				  });
-			})
-		</script>
+		<?php  include('./partials/footer.php');?>
+		<script type="text/javascript">$(".introduction").addClass("active");</script>
 	</footer>
 </body>
 </html>
