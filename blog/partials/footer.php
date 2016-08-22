@@ -35,7 +35,7 @@
 	$(document).ready(function(){
 		$('.ui.sticky.menu')
 		  .sticky({
-		    context: '.centered.grid.body'
+		    context: '.grid.body'
 		  });
 	})
 </script>

@@ -30,6 +30,9 @@
 			p{
 				font-size: 20px;
 			}
+			.ui.grid.body{
+				text-align: center;
+			}
 		}
 		@media (min-width: 768px) {
 			p{
@@ -38,6 +41,7 @@
 			.ui.grid.body{
 				max-width: 700px;
 				margin-left: calc((100% - 700px)/2);
+				text-align: left;
 			}
 		}
 		@media (min-width: 1100px) {

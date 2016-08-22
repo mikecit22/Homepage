@@ -5,7 +5,7 @@
 </head>
 <body>
 	<?php  include('./partials/navbar.php');?>
-	<div class="ui centered grid body">
+	<div class="ui grid body">
 		<div class="sixteen wide column">
 			<?php include('./partials/banner.php'); ?>
 		</div>
