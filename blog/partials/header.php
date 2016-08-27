@@ -59,7 +59,7 @@
 		    font-style: normal;
 		    line-height: 1.58;
 		    letter-spacing: -.003em;
-		    color: rgba(0,0,0,.7);
+		    color: rgba(0,0,0,1);
 		}
 		.intro-header{
 		    font-size: 40px !important;
