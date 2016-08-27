@@ -69,7 +69,7 @@
                         <a class="page-scroll" href="#about">About</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="blog/">Blog</a>
+                        <a class="page-scroll" href="blog/">Blog <span class="new-icon">NEW!</span></a>
                     </li>
                 </ul>
             </div>
