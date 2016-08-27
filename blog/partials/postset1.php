@@ -46,7 +46,7 @@
 	        <span>Also known as Front end or client side this is all the code that runs on the broswer. I will review this as HTML css JAvscript being th e fundation of Frontend Technologies </span>
 	      </div>
 	      <div class="extra">
-	        Ahust 20th, 2016
+	        Coming Soon!
 	      </div>
 	    </div>
 	  </div>
