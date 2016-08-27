@@ -26,6 +26,7 @@
 			src: url("fonts/thinfont.otf") format("opentype");
 		}
 
+		/*PHONE*/
 		@media (min-width: 200px) {
 			p{
 				font-size: 20px;
@@ -33,7 +34,13 @@
 			.ui.grid.body{
 				text-align: center;
 			}
+			.forum-post{
+				width: 85% !important;
+				left: 7.5%;
+				position: relative;
+			}
 		}
+		/*TABLET*/
 		@media (min-width: 768px) {
 			p{
 				font-size: 25px;
@@ -44,6 +51,7 @@
 				text-align: left;
 			}
 		}
+		/*DESKTOP*/
 		@media (min-width: 1100px) {
 			p{
 				font-size: 28px;

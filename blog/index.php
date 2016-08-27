@@ -20,7 +20,7 @@
 			</p>
 			<div style="border-top: 2px solid #039BE5; width: 150px; margin-left: calc(50% - 75px);"></div>
 			<p style="text-align: left;margin: 10px 0px 10px 0px;">
-				I will not be going into details or getting to involved initially but will give a genial overview of how web developer works, essentially it architecture. I truly believe that knowing the architecture of something you are trying to learn it the best starting point. Followed by learning the underlying technologies that it is built on. Only then can you start to take advantaged of these advanced technologies. I feel it is a misconception, that you must take classes to be a great developer. My opinion is that it does not take classes but just passion, determination, and motivation to read, learn, and implement. 				
+				I will not be going into details or getting to involved initially but will give an overview of how web developer works, essentially it architecture. I truly believe that knowing the architecture of something you are trying to learn it the best starting point. Followed by learning the underlying technologies that it is built on. Only then can you start to take advantaged of these advanced technologies. I feel it is a misconception, that you must take classes to be a great developer. My opinion is that it does not take classes but just passion, determination, and motivation to read, learn, and implement. 				
 			</p>
 			<div style="border-top: 2px solid #039BE5; width: 150px; margin-left: calc(50% - 75px);"></div>
 			<p style="text-align: left;margin: 10px 0px 10px 0px;">

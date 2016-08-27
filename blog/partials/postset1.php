@@ -8,7 +8,7 @@
 </div>
 <div class="sixteen wide column">
 	<div class="ui items">
-	  <div class="item">
+	  <div class="item forum-post">
 	    <div class="image" style="width:200px;">
 			<div class="ui fluid image">
 			      <div class="ui blue ribbon label">
@@ -31,7 +31,7 @@
 </div>
 <div class="sixteen wide column">
 	<div class="ui items">
-	  <div class="item">
+	  <div class="item forum-post">
 	    <div class="image" style="width:200px;">
 			<div class="ui fluid image">
 			      <div class="ui blue ribbon label">

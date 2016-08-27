@@ -33,9 +33,6 @@
 
 <script type="text/javascript">
 	$(document).ready(function(){
-		$('.ui.sticky.menu')
-		  .sticky({
-		    context: '.grid.body'
-		  });
+
 	})
 </script>
