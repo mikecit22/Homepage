@@ -1,4 +1,4 @@
-	<div class="ui pointing menu sticky">
+	<div class="ui pointing menu sticky" style="position: fixed; width: 100%; top: 0px; border-radius: 0px;">
 	  <a class="introduction item" href="index.php">
 	  	<i class="comment icon"></i>
 	    Introduction
