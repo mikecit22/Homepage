@@ -52,17 +52,24 @@
 				font-size: 20px;  
 				padding: 1px;
 			}
+			.post-img{
+
+			}
 		}
 		/*TABLET*/
-		@media (min-width: 768px) {
+		@media (min-width: 800px) {
 			p{
 				font-size: 25px;
 				font-weight: 400;
 			}
 			.ui.grid.body{
-				max-width: 700px;
-				margin-left: calc((100% - 700px)/2);
+				max-width: 799px;
+				margin-left: calc((100% - 799px)/2);
 				text-align: left;
+			}
+			.post-img{
+				top: 32px !important;
+				width: 250px !important;
 			}
 
 		}

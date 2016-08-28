@@ -9,7 +9,7 @@
 <div class="sixteen wide column">
 	<div class="ui items">
 	  <div class="item forum-post">
-	    <div class="image" style="width:200px;">
+	    <div class="image post-img" style="width:200px;max-width:400px !important;">
 			<div class="ui fluid image">
 			      <div class="ui blue ribbon label">
 					POST #1
@@ -34,7 +34,7 @@
 <div class="sixteen wide column">
 	<div class="ui items">
 	  <div class="item forum-post">
-	    <div class="image" style="width:200px;">
+	    <div class="image post-img" style="width:200px;max-width:400px !important;">
 			<div class="ui fluid image">
 			      <div class="ui blue ribbon label">
 					POST #2
