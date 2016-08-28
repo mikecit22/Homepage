@@ -1,7 +1,7 @@
 <div class="sixteen wide column" style="text-align: left;">
 	<h2 class="ui dividing header">
 	  <i class="html5 icon"></i>
-	  <div class="content" style="font-weight: normal;">
+	  <div class="content postset-header" style="font-weight: normal;">
 	    Understanding Web Development
 	  </div>
 	</h2>

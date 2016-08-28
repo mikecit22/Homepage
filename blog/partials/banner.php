@@ -6,7 +6,7 @@
     <div class="content">
       <a class="intro-header header">Citro's Blog</a>
       <div class="meta">
-        <h3 style="font-size:20px;font-weight: 500;">Welcome, please read this intro to get a better understanding of what topices i will be covering, Thank You.</h3>
+        <h3 style="font-size:20px;font-weight: 500;">Welcome, please read my introduction page to get a better understanding of what topices i will be covering, Thank You.</h3>
       </div>
       <div class="description">
         <p></p>
