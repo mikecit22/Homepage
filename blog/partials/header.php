@@ -39,6 +39,9 @@
 				left: 7.5%;
 				position: relative;
 			}
+			.posts, .introduction{
+				font-size: 13px;
+			}
 		}
 		/*TABLET*/
 		@media (min-width: 768px) {
