@@ -84,11 +84,25 @@
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>Current</h4>
+                                    <h4>2016</h4>
                                     <h4 class="subheading">The Children's Place</h4>
                                 </div>
                                 <div class="timeline-body">
                                     <p class="text-muted">Systems Architect Analyst</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/tcp2.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>Current</h4>
+                                    <h4 class="subheading">The Children's Place</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Software Developer</p>
                                 </div>
                             </div>
                         </li>
