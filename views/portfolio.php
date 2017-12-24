@@ -13,7 +13,7 @@
                         <i class="fa fa-link " style="font-size:60px;"></i>
                     </div>
                 </div>
-                <img src="img/portfolio/andy.png" class="img-responsive" alt="">
+                <img src="img/portfolio/tcp.jpg" class="img-responsive" alt="">
             </a>
             <div class="portfolio-caption">
                 <h4>The Children's Place</h4>
