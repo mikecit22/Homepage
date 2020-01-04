@@ -10,8 +10,8 @@
     <div class="row">
         <div class="col-lg-3 col-md-4 col-sm-4 col-sm-offset-0 col-xs-6 col-xs-offset-0 text-center">
             <div class="service-box service-box-mod">
-                <i class="icon-java-bold languages-icon" style="margin-left:40px;"></i>
-                <h3>JAVA</h3>
+                <i class="icon-javascript languages-icon" style="margin-left:40px;"></i>
+                <h3>JavaScript</h3>
             </div>
         </div>
         <div class="col-lg-3 col-md-4 col-sm-4 col-sm-offset-0 col-xs-6 col-xs-offset-0 text-center">
@@ -49,8 +49,8 @@
         </div>
         <div class="col-lg-3 col-md-4 col-sm-4 col-sm-offset-0 col-xs-6 col-xs-offset-0 text-center">
             <div class="service-box service-box-mod">
-                <i class="icon-javascript languages-icon"></i>
-                <h3>JavaScript</h3>
+                <i class="icon-java-bold languages-icon"></i>
+                <h3>Java</h3>
             </div>
         </div>
         <div class="col-lg-3 col-md-4 col-sm-4 col-sm-offset-0 col-xs-6 col-xs-offset-0 text-center">
@@ -72,6 +72,12 @@
 </div>
 <div class="container">
     <div class="row">
+         <div class="col-lg-3 col-md-4 col-sm-4 col-sm-offset-0 col-xs-6 col-xs-offset-0 text-center">
+            <div class="service-box service-box-mod">
+                <i class="icon-javascript languages-icon" style="margin-top: 40px;"></i>
+                <h3>NodeJs</h3>
+            </div>
+        </div>
         <div class="col-lg-3 col-md-4 col-sm-4 col-sm-offset-0 col-xs-6 col-xs-offset-0 text-center">
             <div class="service-box service-box-mod">
                 <i class="fa fa-android languages-icon" style="margin-top: 40px;"></i>
@@ -83,12 +89,6 @@
                 <i class="fa fa-apple languages-icon" style="margin-top: 40px;"></i>
                 <h3>iOS</h3>
                 
-            </div>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-4 col-sm-offset-0 col-xs-6 col-xs-offset-0 text-center">
-            <div class="service-box service-box-mod">
-                <i class="fa fa-windows languages-icon" style="margin-top: 40px;"></i>
-                <h3>Windows</h3>
             </div>
         </div>
         <div class="col-lg-3 col-md-4 col-sm-4 col-sm-offset-0 col-xs-6 col-xs-offset-0 text-center">

@@ -1,3 +1,4 @@
+	<?php include("./partials/env.php"); ?>
 	<title>Citro's Blog</title>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -26,27 +27,57 @@
 			src: url("fonts/thinfont.otf") format("opentype");
 		}
 
+		/*PHONE*/
 		@media (min-width: 200px) {
 			p{
 				font-size: 20px;
+				font-weight: 600;
 			}
 			.ui.grid.body{
 				text-align: center;
 			}
+			.forum-post{
+				width: 85% !important;
+				left: 7.5%;
+				position: relative;
+			}
+			.posts, .introduction{
+				font-size: 13px;
+			}
+			.html5.icon{
+				font-size: 30px !important;
+			}
+			.postset-header{
+				font-weight: normal; 
+				font-size: 20px;  
+				padding: 1px;
+			}
+			.post-img{
+
+			}
 		}
-		@media (min-width: 768px) {
+		/*TABLET*/
+		@media (min-width: 800px) {
 			p{
 				font-size: 25px;
+				font-weight: 400;
 			}
 			.ui.grid.body{
-				max-width: 700px;
-				margin-left: calc((100% - 700px)/2);
+				max-width: 799px;
+				margin-left: calc((100% - 799px)/2);
 				text-align: left;
 			}
+			.post-img{
+				top: 32px !important;
+				width: 250px !important;
+			}
+
 		}
+		/*DESKTOP*/
 		@media (min-width: 1100px) {
 			p{
 				font-size: 28px;
+				font-weight: 400;
 			}
 			.menu.sticky a{
 				font-size: 20px;
@@ -55,11 +86,10 @@
 		p{
 			font-family: thinfont;
 		    letter-spacing: .01rem;
-		    font-weight: 400;
 		    font-style: normal;
 		    line-height: 1.58;
 		    letter-spacing: -.003em;
-		    color: rgba(0,0,0,.7);
+		    color: rgba(0,0,0,1);
 		}
 		.intro-header{
 		    font-size: 40px !important;

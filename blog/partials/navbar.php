@@ -1,4 +1,5 @@
-	<div class="ui pointing menu sticky">
+<nav>
+	<div class="ui pointing menu sticky" >
 	  <a class="introduction item" href="index.php">
 	  	<i class="comment icon"></i>
 	    Introduction
@@ -14,3 +15,4 @@
 	    </div>
 	  </div>
 	</div>
+</nav>
